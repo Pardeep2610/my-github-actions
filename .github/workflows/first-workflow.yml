@@ -16,6 +16,8 @@ jobs:
 
       - name: Print Date
         run: date
+      - name: Show Runner OS
+        run: uname -a
 
       - name: List Files
         run: ls -la
